@@ -27,11 +27,11 @@ python3 -m http.server 8000 --bind 127.0.0.1 --directory .
 `404.html` uses absolute `/notch-pals/...` paths (GitHub Pages serves it for any depth), so it only looks right when the site is
 served under `/notch-pals/`. If you rename the repo or add a custom domain, update those paths and the `canonical` / `og:` URLs.
 
-## Publish (not done yet, needs the owner's approval)
+## Publishing
 
-1. Create the **public** repo `Adhithya-Karthikeyan/notch-pals` and put the contents of this folder at its root.
-2. Settings > Pages > Build and deployment > Deploy from a branch > `main` / `/ (root)`.
-3. Wait for the green deploy, then open both URLs above (they must return 200) before pasting them into App Store Connect.
+Published on 2026-10-19 to the **public** repo `Adhithya-Karthikeyan/notch-pals`. That repo has the contents of this folder at
+its root, and GitHub Pages deploys from `main` / `/ (root)`. The app's source lives elsewhere and is not in that repo.
+To update the site: edit here, copy the files into that repo, push, wait for the green deploy, then check that both URLs return 200.
 
 ## Keeping it truthful
 
